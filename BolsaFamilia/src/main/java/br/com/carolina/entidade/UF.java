@@ -5,14 +5,14 @@ public class UF {
 	private String sigla;
 	private String nome;
 	private int area;
-	private double populacao;
+	private int populacao;
 
 //Construtores
 	public UF() {
 		
 	}
 
-	public UF(String sigla, String nome, int area, double populacao) {
+	public UF(String sigla, String nome, int area, int populacao) {
 		this.sigla = sigla;
 		this.nome = nome;
 		this.area = area;
@@ -44,11 +44,11 @@ public class UF {
 		this.area = area;
 	}
 
-	public double getPopulacao() {
+	public int getPopulacao() {
 		return populacao;
 	}
 
-	public void setPopulacao(double populacao) {
+	public void setPopulacao(int populacao) {
 		this.populacao = populacao;
 	}
 
